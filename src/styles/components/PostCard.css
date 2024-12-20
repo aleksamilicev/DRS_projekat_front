@@ -1,0 +1,14 @@
+.post-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .post-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .post-card p {
+    margin: 8px 0;
+  }
+  

@@ -1,0 +1,17 @@
+/* Stilovi za login poruku */
+.login-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .login-message a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .login-message a:hover {
+    text-decoration: underline;
+  }
+  

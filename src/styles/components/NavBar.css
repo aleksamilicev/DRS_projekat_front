@@ -1,0 +1,43 @@
+/* NavBar stilovi */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Podela prostora na levo i desno */
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: flex-start; /* Leva strana */
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end; /* Desna strana */
+}
+
+/* Resetovanje stilova za sve linkove u navbaru */
+.navbar a,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active,
+.logout-link {
+  color: white !important; /* Forsiranje bele boje */
+  text-decoration: none; /* Uklanjanje podvlačenja */
+  font-size: 18px;
+  margin-left: 20px; /* Razmak između linkova */
+}
+
+/* Hover efekat */
+.navbar a:hover,
+.logout-link:hover {
+  text-decoration: underline; /* Podvlačenje linkova na hover */
+}
+
+/* Log Out dugme stilovi */
+.logout-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
